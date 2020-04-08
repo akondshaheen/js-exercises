@@ -5,7 +5,20 @@
   Update the code so that you get the expected result.
 */
 
-function isNegative() {}
+function isNegative(number) {
+  return number < 0;
+}
+
+function isBetween5and10(value) {
+  return value >= 5 && value <= 10;
+}
+function isShortName(name) {
+  return name.length < 10;
+}
+function startsWithD(object) {
+  return object.startsWith("D");
+
+}
 
 /* 
   DO NOT EDIT BELOW THIS LINE
@@ -17,7 +30,7 @@ console.log("Is 10 in the range 5-10?", isBetween5and10(10));
 console.log("Is Daniel a short name?", isShortName("Daniel"));
 console.log("Does Daniel start with 'D'?", startsWithD("Daniel"));
 
-/* 
+/*
   EXPECTED RESULT
   ---------------
   Is -10 is a negative number? true

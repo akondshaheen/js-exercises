@@ -2,9 +2,16 @@
 // - is a number
 // - is a positive number
 // - is less than or equal to 100
-// Tip: write other small functions for each requirement
+// Tip: write other       small functions for each requirement
 
-function validate(num) {}
+function validate(num) {
+  // return Number.isInteger(num);
+
+  return num.isString;// && num >= 0 && num >= 0 && num <= 100;
+
+
+
+}
 
 /* 
   DO NOT EDIT BELOW THIS LINE
@@ -16,7 +23,7 @@ console.log(validate(101));
 console.log(validate(-12));
 console.log(validate("16"));
 
-/* 
+/*
   EXPECTED RESULT
   ---------------
   true

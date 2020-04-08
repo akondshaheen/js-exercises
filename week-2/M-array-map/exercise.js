@@ -10,14 +10,14 @@ function double(num) {
 }
 
 var numbers = [1, 2, 3, 4];
-var numbersDoubled; // complete this statement (use map and the double function)
+var numbersDoubled = numbers.map(double); // complete this statement (use map and the double function)
 
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
 console.log(numbersDoubled);
 
-/* 
+/*
   EXPECTED RESULT
   ---------------
   [2,4,6,8]

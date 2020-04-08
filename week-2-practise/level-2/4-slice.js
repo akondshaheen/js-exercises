@@ -5,7 +5,7 @@
 // - remove the item at the specified index
 
 function remove(arr, index) {
-  return; // complete this statement
+  return arr.reject(); // complete this statement
 }
 
 /* 
@@ -20,7 +20,7 @@ var newNames = remove(names, 1);
 console.log(newNumbers);
 console.log(newNames);
 
-/* 
+/*
   EXPECTED RESULT
   ---------------
   [1, 2]

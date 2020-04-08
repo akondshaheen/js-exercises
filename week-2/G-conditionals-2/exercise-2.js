@@ -8,7 +8,11 @@
 */
 
 function studentPassed(grade) {
-
+  if (grade < 50) {
+    return 'failed';
+  } else {
+    return 'passed';
+  }
 }
 
 /* 
@@ -22,7 +26,7 @@ console.log("'" + grade1 + "': " + studentPassed(grade1))
 console.log("'" + grade2 + "': " + studentPassed(grade2))
 console.log("'" + grade3 + "': " + studentPassed(grade3))
 
-/* 
+/*
 EXPECTED RESULT
 ---------------
 '49': failed
