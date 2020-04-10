@@ -5,9 +5,16 @@
 
 var percentages = [1, 23, 92, 18];
 
+
+function output(num) {
+
+  return (num.toString() + "%");
+};
+
+var percentagesFormatted = percentages.map(output);
 console.log(percentagesFormatted);
 
-/* 
+/*
   EXPECTED RESULT
   ---------------
   [1%, 23%, 92%, 18%]

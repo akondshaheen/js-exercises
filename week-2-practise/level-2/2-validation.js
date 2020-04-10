@@ -7,7 +7,8 @@
 function validate(num) {
   // return Number.isInteger(num);
 
-  return num.isString;// && num >= 0 && num >= 0 && num <= 100;
+  //return num !== isNaN && num >= 0 && num <= 100;
+  return typeof num === "number" && num >= 0 && num <= 100;
 
 
 

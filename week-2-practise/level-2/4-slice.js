@@ -4,10 +4,18 @@
 // - return a new array with the item removed
 // - remove the item at the specified index
 
-function remove(arr, index) {
-  return arr.reject(); // complete this statement
-}
+/*function remove(arr, index) {
+  let newArray = [...arr];
+  newArray.splice(index, 1);
+  return newArray;
 
+}*/
+
+function remove(arr, index) {
+  var first = arr.slice(0, index);
+  var second = arr.slice(index + 1, arr.length); // []
+  return first.concat(second);
+}
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
