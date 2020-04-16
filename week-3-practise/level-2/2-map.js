@@ -14,7 +14,14 @@ var attendances = [
   ["Nina", 10]
 ];
 
-var eligibleStudentNames; // TODO: Complete this line.
+var eligibleStudentNames = attendances.filter(element => element.find(el => el >= 8)).map(function (value) {
+  if (value.find(index => index >= 8)) {
+    return value[0];
+  }
+});
+
+
+// TODO: Complete this line.
 
 console.log(eligibleStudentNames);
 
