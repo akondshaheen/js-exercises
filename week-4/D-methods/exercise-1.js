@@ -7,7 +7,11 @@ Add a method "greet" so this person can say hello.
 var person = {
     name: "Alice",
     age: 25
+
 };
+person.greet = function () {
+    return "Hello everybody";
+}
 
 
 /*
